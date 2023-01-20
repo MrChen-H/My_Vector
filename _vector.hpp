@@ -20,11 +20,11 @@ namespace my_vector
         typedef MyIterator<T> iterator;     //Custom iterators
         //Common iterator operations
 
-        iterator begin() //Overload begin()
+        iterator begin() //Override begin()
         {
             return iterator(arr);
         }
-        iterator end() //Overload end()
+        iterator end() //Override end()
         {
             return iterator(arr + tail);
         }
